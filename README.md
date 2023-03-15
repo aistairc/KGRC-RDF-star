@@ -9,6 +9,61 @@ The KGRC-RDF-star is an RDF-star dataset converted from [KGRC-RDF](https://githu
 - [rdf-star_ext_ikgrc2023_remove_Situation_Statement_Thought.nt](./rdf-star_ext_ikgrc2023_remove_Situation_Statement_Thought.nt)
     - Removed the values of rdf:type (Situation, Statement, and Thought).
 
+## Statistics
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-dvpl{border-color:inherit;text-align:right;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow" colspan="2">Class</th>
+    <th class="tg-dvpl">17</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow" colspan="2">Instance</td>
+    <td class="tg-dvpl">9,524</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow" colspan="2">Property</td>
+    <td class="tg-dvpl">640</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow" rowspan="6"><br><br><br><br><br><br>Triple</td>
+    <td class="tg-c3ow">Standard triple</td>
+    <td class="tg-dvpl">14,180</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Single-nested QT</td>
+    <td class="tg-dvpl">9,765</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Double-nested QT</td>
+    <td class="tg-dvpl">6,409</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Triple-nested QT</td>
+    <td class="tg-dvpl">695</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Quadruple-nested QT</td>
+    <td class="tg-dvpl">43</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Total</td>
+    <td class="tg-dvpl">31,092</td>
+  </tr>
+</tbody>
+</table>
+
 ## Embeddings
 If you want to use this dataset for graph embeddings, please see [RDF-star2Vec](https://github.com/aistairc/RDF-star2Vec).
 The gold standard datasets and evaluation framework are [here](https://github.com/aistairc/GEval-forKGRC-RDF-star).
