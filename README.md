@@ -1,5 +1,9 @@
 # KGRC-RDF-star
-The KGRC-RDF-star is an RDF-star dataset converted from [KGRC-RDF](https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/ikgrc2023).
+KGRC-RDF-star is an RDF-star dataset converted from [KGRC-RDF](https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/ikgrc2023), which is a Knowledge graph dataset of novel stories.
+
+RDF-star (also known as [RDF*](https://ceur-ws.org/Vol-1963/paper593.pdf)) introduces <i>quoted triple</i> (QT), which is a triple used as the subject or object of another triple. 
+
+KGRC-RDF-star is a complex RDF-star graph dataset that contains nested structures of statements and scenes, e.g., "<i>Person A</i> said "<i>Person B</i> saw "<i>Person C</i> was in <i>D</i>" " ."
 
  The same <i>s</i>, <i>p</i>, and <i>o</i> combinations may occur in different scenes when the KGRC-RDF is converted to the KGRC-RDF-star. It is necessary to distinguish these QTs and assign different metadata to them. Therefore, we solved this problem by assigning a unique ID to each QT and nested these triples as a QT as follows: &lt;&lt; &lt;&lt; s p o &gt;&gt; id val &gt;&gt; p' o'.
 - [rdf-star_ext_ikgrc2023.nt](./rdf-star_ext_ikgrc2023.nt)
