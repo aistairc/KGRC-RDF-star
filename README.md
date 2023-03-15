@@ -12,13 +12,10 @@ The KGRC-RDF-star is an RDF-star dataset converted from [KGRC-RDF](https://githu
 ## Statistics
 
 <table class="tg">
-<thead>
-  <tr>
-    <th class="tg-c3ow" colspan="2">Class</th>
-    <th class="tg-dvpl">17</th>
+   <tr>
+    <td class="tg-c3ow" colspan="2">Class</th>
+    <td class="tg-dvpl">17</th>
   </tr>
-</thead>
-<tbody>
   <tr>
     <td class="tg-c3ow" colspan="2">Instance</td>
     <td class="tg-dvpl">9,524</td>
@@ -28,7 +25,7 @@ The KGRC-RDF-star is an RDF-star dataset converted from [KGRC-RDF](https://githu
     <td class="tg-dvpl">640</td>
   </tr>
   <tr>
-    <td class="tg-c3ow" rowspan="6"><br><br><br><br><br><br>Triple</td>
+    <td class="tg-c3ow" rowspan="6">Triple</td>
     <td class="tg-c3ow">Standard triple</td>
     <td class="tg-dvpl">14,180</td>
   </tr>
@@ -52,7 +49,6 @@ The KGRC-RDF-star is an RDF-star dataset converted from [KGRC-RDF](https://githu
     <td class="tg-c3ow">Total</td>
     <td class="tg-dvpl">31,092</td>
   </tr>
-</tbody>
 </table>
 
 ## Embeddings
